@@ -2,10 +2,10 @@ import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
-import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
+import { styles } from "../styles.js";
+import { EarthCanvas } from "./canvas/";
 import { SectionWrapper } from "../hoc";
-import { slideIn } from "../utils/motion";
+import { slideIn } from "../utils/motion.js";
 
 const Contact = () => {
   const formRef = useRef();
@@ -134,4 +134,3 @@ const Contact = () => {
 };
 
 export default SectionWrapper(Contact, "contact");
-
