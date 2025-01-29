@@ -3,7 +3,7 @@ import { ReactTilt } from "./../../node_modules/.vite/deps/react-tilt.js";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles.js";
-import { services } from "../constants/";
+import { services } from "../constants/index.js";
 import { SectionWrapper } from "../hoc/";
 import { fadeIn, textVariant } from "../utils/motion.js";
 
